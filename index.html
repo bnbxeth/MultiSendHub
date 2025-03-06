@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Token on Monad Testnet</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <h1>Send Tokens to Multiple Addresses on Monad Testnet</h1>
+
+    <div>
+        <label for="recipients">Recipient Addresses (comma separated):</label>
+        <input type="text" id="recipients" placeholder="Enter recipient addresses" required>
+    </div>
+
+    <div>
+        <label for="amounts">Amounts (comma separated):</label>
+        <input type="text" id="amounts" placeholder="Enter amounts to send" required>
+    </div>
+
+    <button onclick="sendTokensToMultiple()">Send Tokens</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
